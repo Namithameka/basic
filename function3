@@ -1,0 +1,6 @@
+#4. Function with Default Parameters
+def power(base, exponent=2):
+    return base ** exponent
+
+print(power(5))      # Uses default exponent (2)
+print(power(2, 3))   # Uses exponent 3
