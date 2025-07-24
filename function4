@@ -1,0 +1,9 @@
+# Function Returning Multiple Values
+def calculate(a, b):
+    add = a + b
+    sub = a - b
+    return add, sub
+
+sum_result, diff_result = calculate(10, 4)
+print("Sum:", sum_result)
+print("Difference:", diff_result)
