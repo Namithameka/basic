@@ -1,0 +1,5 @@
+#2. Function with Parameters
+def greet_user(name):
+    print(f"Hello, {name}! Have a great day.")
+
+greet_user("Alice")
