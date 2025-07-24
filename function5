@@ -1,0 +1,3 @@
+#Lambda Function (Anonymous Function)
+square = lambda x: x * x
+print("Square of 6:", square(6))
